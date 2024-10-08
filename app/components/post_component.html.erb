@@ -1,9 +1,11 @@
-<p>
-  <strong>Title:</strong>
-  <%= @title %>
-</p>
+<div id="<%= dom_id @post %>">
+  <p>
+    <strong>Title:</strong>
+    <%= @post.title %>
+  </p>
 
-<p>
-  <strong>Content:</strong>
-  <%= @description %>
-</p>
+  <p>
+    <strong>Content:</strong>
+    <%= @post.content %>
+  </p>
+</div>
